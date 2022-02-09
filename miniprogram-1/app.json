@@ -1,0 +1,54 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/channel/info/info",
+        "pages/videoPage/video",
+        "pages/plaza/plaza",
+        "pages/channel/blank/blank",
+        "pages/home/ganhuo/ganhuo",
+        "pages/home/intern/intern",
+        "pages/plaza/aichat/aichat",
+        "components/search/search",
+        "pages/plaza/ask/ask"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "一席菁听",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#11cd6e",
+        "borderStyle": "white",
+        "list": [
+            {
+                "selectedIconPath": "/images/tapbarIcon/home.png",
+                "iconPath": "/images/tapbarIcon/home.png",
+                "pagePath": "pages/home/home",
+                "text": "一席菁听"
+            },
+            {
+                "selectedIconPath": "/images/tapbarIcon/video.png",
+                "iconPath": "/images/tapbarIcon/video.png",
+                "pagePath": "pages/videoPage/video",
+                "text": "视频"
+            },
+            {
+                "selectedIconPath": "/images/tapbarIcon/plaza.png",
+                "iconPath": "/images/tapbarIcon/plaza.png",
+                "pagePath": "pages/plaza/plaza",
+                "text": "广场"
+            },
+            {
+                "selectedIconPath": "/images/tapbarIcon/user_info.png",
+                "iconPath": "/images/tapbarIcon/user_info.png",
+                "pagePath": "pages/index/index",
+                "text": "个人中心"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

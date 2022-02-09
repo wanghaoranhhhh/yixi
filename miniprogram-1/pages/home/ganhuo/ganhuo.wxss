@@ -1,0 +1,14 @@
+/* pages/home/ganhuo/ganhuo.wxss */
+
+.ganhuo{
+    height: 17vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+    display: flex;
+    flex:row;
+    border: 1px solid #cad9ea;
+            color: #666;
+            border-radius: 10px;
+    
+}

@@ -1,0 +1,42 @@
+<!--pages/square/square.wxml-->
+<yiXi-search>
+</yiXi-search>
+<!-- 搜索框 -->
+<view class="hotQuestion">
+<image id="fire" src="../../img_Storage/fire_cmall.png"></image>
+<text>热门问题</text>
+</view>  
+<!-- 左上角的热门问题 -->
+
+<view class="question_Main">
+<text class="Question">{{Question}}</text>
+</view>
+<!-- 问题 -->
+
+<view class="answerPreview">
+    <text id="p1_raw">{{answerPreview_1}}</text>
+    <text id="p2_bold">{{answerPreview_2}}</text>
+    <text id="p3_raw">{{answerPreview_3}}</text>
+</view>
+<!-- 问题预览 -->
+
+<view class="response">
+    <text id="ask" bindtap="toask">我要提问</text>
+    <text id="answer">我要回答</text>
+    <text id="add">我要补充</text>
+    <image src="../../img_Storage/thumb.svg" id="thumb" ></image>
+    <text id="thumb_number">{{thumb_number}}</text>
+</view>
+<!-- 提问、问答、补充、点赞页面 -->
+
+<view class='line'></view>
+<!-- 一根横线 -->
+
+<view class="more">
+<view  class = 'circle-text' id="more_answer" bindtap="toaichat">智能问答</view>
+<view  class = 'circle-text' id="expert">对话专家</view>
+<view class = 'circle-text' id="teacher">智慧讲师</view>
+<view class = 'circle-text' id="none"></view>
+<image src="../../img_Storage/couple.png" id="couple_img"></image>
+</view>
+<!-- 更多内容以及logo -->

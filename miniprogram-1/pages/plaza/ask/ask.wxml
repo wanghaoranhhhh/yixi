@@ -1,0 +1,8 @@
+<!--pages/plaza/ask/ask.wxml-->
+<form bindsubmit='converSation'>
+    <textarea name="asks" id="" cols="50" rows="50" class='text' placeholder='我想问一下...'></textarea>
+
+    <button class='btn' id='btn' form-type='submit'>提问</button>
+    </form>
+
+    

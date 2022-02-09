@@ -1,0 +1,29 @@
+/* pages/plaza/ask/ask.wxss */
+.text{
+    float: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    height: 500px;
+    border-radius:10px;
+    font-size: 20px;
+    background-color: rgb(239, 243, 243);
+    text-align:left;
+    color: #505050
+    }
+
+.btn{
+    float:left;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10px;
+    width: 60vw;
+    height: 31px;
+    background-color: rgba(17, 208, 192, 0.88);
+    line-height: 31px;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius:18px;
+    box-shadow:3px 3px 12px -1px #968f96db;
+    }

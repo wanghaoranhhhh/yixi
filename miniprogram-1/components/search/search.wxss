@@ -1,0 +1,30 @@
+
+input placeholder{
+    display: flex;
+    font-size: 10rpx;
+} 
+view.search {
+    display: flex;
+    flex-direction: row;
+    height: 90rpx;
+    align-items: center;
+}
+
+view.searchItem {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #a1b96d;
+}
+
+view.searchItem image {
+    height: 32rpx;
+    width: 32rpx;
+    align-self: center;
+    margin-left: 5rpx;
+}
+
+view.searchItem input {
+    flex: 1;
+    font-size: 30rpx;
+}

@@ -1,0 +1,54 @@
+<!--pages/homepage/home.wxml-->
+<!-- <text>pages/homepage/home.wxml</text> -->
+<!-- swipers -->
+<view>
+<swiper style="height: 350rpx;">
+    <swiper-item style="height: 200rpx;"><image src="https://636c-cloud-test-6gknyef416372f2e-1309458022.tcb.qcloud.la/swiper0.jpg?sign=6460331a450b7011f7fff3a88de5fc52&t=1643426795" style="height:100%;width: 100%;"></image></swiper-item>  
+    <swiper-item style="height: 200rpx;"><image src="https://636c-cloud-test-6gknyef416372f2e-1309458022.tcb.qcloud.la/swiper1.png?sign=b721248fb5250eafcca76a520063efcc&t=1643426834" style="height:100%;width: 100%;"></image></swiper-item>  
+    <swiper-item style="height: 200rpx;"><image src="https://636c-cloud-test-6gknyef416372f2e-1309458022.tcb.qcloud.la/swiper2.jpg?sign=6245f56790f468aa374597d2ac34d82b&t=1643426861" style="height:100%;width: 100%;"></image></swiper-item>  
+</swiper>
+</view>
+<view class="split_line"></view>
+<!-- buttons -->
+<view class="btns">
+<block wx:for="{{btns}}" wx:key='index'>
+  <image class="btn_img" src="{{item.image_src}}"></image >
+</block>
+</view>
+<view style="height: 5px;"></view>
+<view class="btns">
+  <block wx:for="{{btns}}" wx:key='index'>
+  <text class="btn_text">{{item.name}}</text>
+</block>
+</view>
+<view class="split_line"></view>
+<!-- get free stuffs/ganhuo -->
+<view class="line">
+<text style="margin-left: 5px;">免费获取</text>
+<text style="font-size: x-small;margin-left: 60%;" bindtap="toganhuo">查看更多</text>
+<view class="split_line"></view>
+
+<view class="btns">
+
+<block wx:for="{{ganhuo4}}" wx:key='index'>
+  <image class="ganhuo" src="{{item.imgsrc}}" bindtap="toBlank" data-link="{{item.link}}"></image >
+</block>
+
+</view>
+</view>
+<view class="split_line"></view>
+
+<!-- trend, whats popular -->
+<view class="line">
+<text style="margin-left: 5px;">热门精选</text>
+<view class="split_line"></view>
+<block wx:for="{{articles}}" wx:key='index'>
+<view>
+  <text class="article" bindtap="toBlank" data-link="{{item.src}}">{{item.title}}</text>
+</view>
+</block>
+</view>
+
+
+
+

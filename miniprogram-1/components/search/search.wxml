@@ -1,0 +1,7 @@
+<!--components/search/search.wxml-->
+<view class='search'>
+    <view class='searchItem'>
+        <image id="svg" src="../../img_Storage/search_small.png" style="height:24px;width: 32px;"></image>
+        <input placeholder-style='font-size:25rpx' placeholder="  大家都在搜: 实习生"/>
+    </view>
+</view>

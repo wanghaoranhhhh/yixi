@@ -1,0 +1,36 @@
+/* pages/homepage/home.wxss */
+.split_line{
+  height: 10px;
+}
+.btns{
+  display: flex;
+  flex:row;
+}
+.btn_img{
+  margin-left: 3%;
+  width:18% ;
+  height: 10vh;
+}
+.btn_text{
+  margin: auto;
+  margin-left: 3%;
+  width: 18%;
+  font-size: 12px;
+}
+.text{
+    font-size:10px ;
+}
+.line{
+  font-size: 20px;
+}
+
+.ganhuo{
+  width: 25%;
+  height: 20vh;
+}
+
+.article{
+  height: 30px;
+  font-size: 12px;
+  margin-left:5% ;
+}
